@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
+    fontFamily: {
+      'sans': ['"Helvetica Neue"', 'Arial', 'sans-serif'],
+    }
   },
   plugins: [],
 }
